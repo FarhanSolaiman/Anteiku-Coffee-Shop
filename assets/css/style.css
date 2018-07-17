@@ -49,7 +49,7 @@ nav > img {
 	color: rgb(235,235,235);	
 	width: 85%;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 130px;
+	font-size: 128px;
 	text-align: center;
 	margin-top: 7%;
 }
@@ -92,6 +92,7 @@ nav > img {
   color: rgb(245,245,245);
   font-size: 20px;
   text-decoration: none;
+  outline: none;
 }
 
 #logo {
@@ -195,7 +196,7 @@ nav > img {
 
 #dalawa p {
 	font-family: 'Cabin', sans-serif;
-	font-size: 17px;
+	font-size: 22px;
 	color: rgb(170,170,170);
 }
 
@@ -342,6 +343,7 @@ nav > img {
 	margin: 10px 0px;
 	color: rgb(30,30,30);
 	font-family: 'Old Standard TT', serif;
+	outline: none;
 }
 
 .btn{
@@ -414,6 +416,7 @@ nav > img {
 
 #socialmedia > p > a {
 	color: rgb(100,100,100);
+	outline: none;
 }
 
 #socialmedia > p > img {
@@ -435,6 +438,305 @@ nav > img {
 	right: 2%;
 	color: rgb(170,170,170);
 }
+
+
+/*about page*/
+.about {
+	background: linear-gradient(rgb(230,230,230),rgb(245,245,245));
+	height: 120vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow-x: hidden;
+}
+
+.box2{
+	height: 90%;
+	width: 90%;
+	background-image: url(../images/barista.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+}
+
+.desc {
+	background: linear-gradient(rgb(248,229,215),rgb(255,251,248));
+	height: 70%;
+	width: 60%;
+	position: absolute;
+	bottom: 1%;
+	right: 2%;
+	padding: 8%;
+	border-radius: 10px;
+}
+
+.desc > h1 {
+	font-family: 'IBM Plex Serif', serif;
+	font-style: italic;
+}
+
+.desc > p {
+	font-family: 'IBM Plex Serif', serif;
+}
+
+.desc > p > u {
+	color: rgb(240,126,38);
+}
+
+#under {
+	color: rgb(240,126,38);
+}
+
+.desc2 {
+	height: 60vh;
+	width: 100vw;
+	background-image: url(../images/desc2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.desc2 > h1 {
+	font-family: 'IBM Plex Serif', serif;
+	font-style: italic;
+	width: 45%;
+	padding-left: 5%;
+}
+
+.desc2 > p {
+	font-family: 'IBM Plex Serif', serif;
+	width: 40%;
+	padding-left: 5%;	
+}
+
+#title1 {
+	font-size: 13px;
+	padding-top: 5%;
+}
+
+/*customer page*/
+.customer {
+	background-image: url(../images/line.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 150vh;
+	width: 100vw;
+	overflow-x: hidden;
+	display: flex;
+	justify-content: center;
+}
+
+.box3{
+	width: 70%;
+	height: 140vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 4%;
+	overflow: hidden;
+}
+
+.box3 > h1 {
+	margin-bottom: 4%;
+}
+
+.box3 > h1 > u {
+	font-family: 'IBM Plex Serif', serif;
+	font-weight: bolder;
+	color: grey;
+	font-style: italic;
+	text-decoration-color: rgb(240,126,38);
+}
+
+.card {
+	height: 100%;
+	margin-bottom: 4%;
+}
+
+.card-body {
+	width: 97%;
+	height: 100%;
+}
+
+.media-left{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.media-left > img {
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+}
+
+.card1 {
+	width: 95%;
+	height: 28%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0.9;
+}
+
+.card2 {
+	width: 95%;
+	height: 28%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0.9;
+}
+
+.card3 {
+	width: 95%;
+	height: 28%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0.9;
+}
+
+.media-body > h4 > u {
+	font-family: 'IBM Plex Serif', serif;
+	font-style: italic;
+	text-decoration-color: rgb(240,126,38);
+}
+
+.media-body > p {
+	font-family: 'IBM Plex Serif', serif;
+}
+
+/*coffee page*/
+.coffee {
+	background-color: rgb(230,230,230);
+	overflow: hidden;
+	height: 30vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+}
+
+.coffee > h1 {
+	padding-top: 7%;
+	text-align: center;
+	width: 80%;
+	font-size: 40px;
+	font-family: 'Old Standard TT', serif;
+}
+.coffee > h1 > u {
+	text-decoration-color: rgb(240,126,38);
+	font-family: 'Old Standard TT', serif;
+	font-style: italic;
+}
+
+.coffee1 {
+	height: 66vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.coffee2 {
+	background-image: url(../images/map.png);
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	height: 220vh;
+	overflow: hidden;
+	width: 100vw;
+}
+
+#card-container {
+  width: 80%;
+  height: 95%;
+  z-index: 1;
+  float: left;
+}
+
+.front {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-color: rgb(255,255,255);
+}
+
+.front > img {
+  	width: 100%;
+  	height: 80%;
+  	margin-bottom: 5%;
+}
+
+.front > p {
+	width: 90%;
+	text-align: center;
+}
+
+#card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all .8s linear;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+#card:hover {
+  transform: rotateY(180deg);
+  box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.front > p {
+	font-family: 'Old Standard TT', serif;
+	font-weight: bolder;
+}
+
+#card > .back {
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+  background: #F9F3E4;
+}
+
+#card > .back > h1 {
+  font-family: "Questrial", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#card > .back > p {
+  font-family: "Questrial", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#card > .back > h1 {
+  font-size: 1.2em;
+  padding-top: 15px;
+  color: #DD899E;
+}
+
+#card > .back > p {
+  font-size: 0.8em;
+}
+
+
+
+
 
 
 
@@ -477,7 +779,7 @@ nav > img {
 	}
 
 	.box1 h1 {
-	font-size: 90px;
+	font-size: 89px;
 }
 	
 	.box1 img {
@@ -506,7 +808,7 @@ nav > img {
 
 #dalawa p {
 	width: 90%;
-	font-size: 11px;
+	font-size: 13px;
 	text-align: left;
 }
 
@@ -685,6 +987,109 @@ nav > img {
 	overflow-y: hidden;
 }
 
+/*about page*/
+.about {
+	height: 85vh;
+}
+
+.desc2 {
+	height: 50vh;
+	width: 100vw;
+	background-image: url(../images/desc2.png);
+	background-size: contain;
+}
+
+/*customer page*/
+.card1 {
+	width: 95%;
+	height: 22%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0.9;
+}
+
+.card2 {
+	width: 95%;
+	height: 22%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0.9;
+}
+
+.card3 {
+	width: 95%;
+	height: 22%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0.9;
+}
+
+.box3 > h1 {
+	margin-bottom: 8%;
+	font-size: 23px;
+}
+
+.customer {
+	height: 80vh;
+}
+
+.box3{
+	height: 76vh;
+	width: 100%;
+	justify-content: flex-start;
+}
+
+.media-left > img {
+	width: 80px;
+	height: 80px;
+}
+
+.media-body > h4 > u {
+	font-family: 'IBM Plex Serif', serif;
+	font-style: italic;
+	text-decoration-color: rgb(240,126,38);
+	font-size: 20px;
+}
+
+.media-body > p {
+	font-family: 'IBM Plex Serif', serif;
+	font-size: 10px;
+}
+.media-body > p > button {
+	font-size: 10px;
+}
+
+/*coffee page*/
+.coffee {
+	height: 20vh;
+}
+.coffee2 {
+	height: 260vh;
+}
+
+#card > .back > h1 {
+  font-size: 1.2em;
+  padding-top: 15px;
+  color: #DD899E;
+}
+
+#card > .back > p {
+  font-size: 0.8em;
+}
+
+.coffee1 {
+	height: 50vh;
+}
+
+.coffee > h1 {
+	padding-top: 7%;
+	width: 90%;
+	font-size: 47px;
+}
+
 }
 
 
@@ -731,7 +1136,7 @@ nav > img {
 }
 
 .second{
-	height: 60vh;
+	height: 55vh;
 }
 
 #una {
@@ -741,7 +1146,7 @@ nav > img {
 
 #una p {
 	font-family: 'Old Standard TT', serif;
-	font-size: 20px;
+	font-size: 24px;
 }
 
 #dalawa {
@@ -753,7 +1158,7 @@ nav > img {
 #dalawa p {
 	font-family: 'Cabin', sans-serif;
 	width: 80%;
-	font-size: 13px;
+	font-size: 15px;
 	text-align: right;
 }
 
@@ -805,5 +1210,148 @@ nav > img {
 	height: 80vh;
 }
 
+/*about page*/
+.about {
+	height: 100vh;
+}
+
+.desc {
+	background: linear-gradient(rgb(248,229,215),rgb(255,251,248));
+	height: 95%;
+	width: 95%;
+	border-radius: 10px;
+}
+
+.desc > h1 {
+	font-family: 'IBM Plex Serif', serif;
+	font-style: italic;
+}
+
+.desc > p {
+	font-family: 'IBM Plex Serif', serif;
+}
+
+.desc > p > u {
+	color: rgb(240,126,38);
+}
+
+.desc2 {
+	height: 60vh;
+	width: 100vw;
+	background-image: url(../images/desc2.png);
+	background-size: initial;
+}
+
+.desc2 > h1 {
+	font-family: 'IBM Plex Serif', serif;
+	font-style: italic;
+	width: 95%;
+	padding-left: 5%;
+}
+
+.desc2 > p {
+	font-family: 'IBM Plex Serif', serif;
+	width: 93%;
+	padding-left: 5%;	
+}
+
+#title1 {
+	font-size: 13px;
+	padding-top: 5%;
+}
+
+/*customer page*/
+.card1 {
+	width: 95%;
+	height: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0.9;
+}
+
+.card2 {
+	width: 95%;
+	height: 35%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0.9;
+}
+
+.card3 {
+	width: 95%;
+	height: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0.9;
+}
+
+.box3 > h1 {
+	margin-bottom: 8%;
+	font-size: 23px;
+}
+
+.customer {
+	height: 125vh;
+}
+
+.box3{
+	height: 120vh;
+	width: 100%;
+}
+
+.media-left > img {
+	width: 80px;
+	height: 80px;
+}
+
+.media-body > h4 > u {
+	font-family: 'IBM Plex Serif', serif;
+	font-style: italic;
+	text-decoration-color: rgb(240,126,38);
+	font-size: 20px;
+}
+
+.media-body > p {
+	font-family: 'IBM Plex Serif', serif;
+	font-size: 10px;
+}
+.media-body > p > button {
+	font-size: 10px;
+}
+
+/*coffee page*/
+.coffee {
+	height: 30vh;
+}
+.coffee2 {
+	height: 600vh;
+}
+
+#card > .back > h1 {
+  font-size: 1.2em;
+  padding-top: 15px;
+  color: #DD899E;
+}
+
+#card > .back > p {
+  font-size: 0.7em;
+}
+
+.coffee1 {
+	height: 64vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.coffee > h1 {
+	padding-top: 5%;
+	width: 90%;
+	font-size: 35px;
+}
 
 }
