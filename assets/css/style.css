@@ -73,7 +73,6 @@ nav > img {
   height: 150px;
   left: 0;
   transition: all 0.3s ease;
-  /*border: 1px solid black;*/
 }
 
 #row1{
@@ -101,7 +100,8 @@ nav > img {
 
 
 #logo img{
-	height: 150px;
+	margin-top: 3%;
+	max-height: 130px;
 }
 
 .page-wrap {
@@ -167,7 +167,7 @@ nav > img {
 
 .second{
 	background-color: rgb(245,245,245);
-	height: 70vh;
+	height: 75vh;
 	width: 100vw;
 	overflow-x: hidden;
 }
@@ -180,7 +180,7 @@ nav > img {
 
 #una p {
 	font-family: 'Old Standard TT', serif;
-	font-size: 50px;
+	font-size: 45px;
 }
 
 #una u {
@@ -238,7 +238,7 @@ nav > img {
 
 
 .wahid img {
-	height: 55%;
+	height: 40%;
 }
 
 .apat:hover {
@@ -424,11 +424,11 @@ nav > img {
 }
 
 .fab {
-	margin-left: 10px;
+	margin-left: 30px;
 }
 
 .fa-facebook-square {
-	margin-left: 70px; 
+	margin-left: 40px; 
 }
 
 #copy {
@@ -1353,5 +1353,4 @@ nav > img {
 	width: 90%;
 	font-size: 35px;
 }
-
 }
