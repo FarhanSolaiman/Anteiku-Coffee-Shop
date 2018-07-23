@@ -1091,6 +1091,7 @@ nav > img {
 
 }
 
+/*tablet style landscape*/
 @media only screen and (min-width: 769px) and (max-width: 1024px){
 	.box1 img {
     height: 60vh;
@@ -1366,8 +1367,8 @@ nav > img {
 
 
 
-
-@media only screen and (min-width: 576px) and (max-width: 640px){
+/*mobile style landscape*/
+@media only screen and (min-width: 576px) and (max-width: 720px){
 
 .main-header {
   	height: 100px;
