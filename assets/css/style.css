@@ -304,7 +304,7 @@ nav > img {
 }
 
 .fifth{
-	height: 42vh;
+	height: 49vh;
 	width: 100vw;
 	background:white;
 	padding: 0;
@@ -1091,6 +1091,13 @@ nav > img {
 
 }
 
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+	.box1 img {
+    height: 60vh;
+    top: 115%;
+}
+}
+
 
 
 
@@ -1120,7 +1127,7 @@ nav > img {
 .box1 h1 {
 	width: 85%;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 50px;
+	font-size: 48px;
 	text-align: center;
 	margin-top: 7%;
 }
@@ -1351,5 +1358,380 @@ nav > img {
 	padding-top: 5%;
 	width: 90%;
 	font-size: 35px;
+}
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 576px) and (max-width: 640px){
+
+.main-header {
+  	height: 100px;
+}
+
+#row1{
+	height: 80px;
+}
+
+#logo img{
+	max-height: 80px;
+}
+
+#yes{
+	display: initial;
+	visibility: visible;
+	clear: none;
+}
+
+.first{
+	height: 150vh;
+}
+
+.border1{
+	height: 95%;
+	width: 95%;
+	background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.no{
+	display: none;
+	visibility: hidden;
+	clear: both;
+}
+
+.box1 h1 {
+	font-size: 65px;
+}
+	
+.box1 img {
+	height: 70vh;
+	top: 120%;
+}
+
+.second{
+	height: 80vh;
+}
+
+#una {
+	top: 13vh;
+	left: 5vw;
+	display: flex;
+    justify-content: flex-start;
+}
+
+#una p {
+	font-size: 30px;
+}
+
+#dalawa {
+	display: flex;
+	justify-content: flex-end;
+	top: 11vh;
+}
+
+#dalawa p {
+	width: 60%;
+	font-size: 13px;
+	text-align: left;
+}
+
+.head1{
+	height: 20vh; 
+}
+
+.head1 p {
+	font-family: 'Cabin', sans-serif;
+}
+
+.wahid img {
+	height: 55%;
+}
+
+.ithnayn img {
+	height: 60%;
+} 
+
+.thalata img {
+	height: 60%;
+}
+
+.arbaa img {
+	height: 60%;
+}
+
+.khamsa img {
+	height: 60%;
+}
+
+.sita img {
+	height: 60%;
+}
+
+.third {
+	height: 370vh;
+}
+
+.apat {
+	position: absolute;
+	left: -8.5%;
+	margin-bottom: 10px;	
+	width: 50%;
+}
+
+.fourth {
+	height: 80vh;
+}
+
+.lima > .input-group {
+	height: 15%;
+}
+
+.saba{
+	height: 70vh;
+	width: 100%;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	position: relative;
+}
+
+.saba > h4 {
+	text-decoration: underline;
+	font-family: 'Raleway', sans-serif;
+	text-decoration-color: rgb(240,126,38);
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+
+.win1 {
+	height: 45vh;
+}
+
+#information > h4 {
+    padding-left: 2%;
+}
+
+.saba > p {
+	font-size: 13px;
+	font-family: 'Old Standard TT', serif;
+}
+
+#externallinks{
+	align-items: center;
+}
+
+.saba > a {
+	margin: 10px 0px;
+	color: rgb(30,30,30);
+	font-family: 'Old Standard TT', serif;
+}
+
+.btn{
+  	color: #fff;
+  	cursor: pointer;
+  	max-width: 360px; 
+  	text-decoration: none;
+  	text-transform: uppercase;
+}
+
+.btn-2 {
+    letter-spacing: 0px;
+}
+
+.btn-2:hover,
+.btn-2:active {
+  	letter-spacing: 5px;
+  	transition-property: all;
+  	transition-duration: 1s;
+  	transition-timing-function: ease-in-out;
+  	color: grey;
+}
+
+.btn-2:after, .btn-2:before {
+    backface-visibility: hidden;
+    border: 1px solid rgba(150,150,150,0);
+    bottom: 0px;
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    transition: all 280ms ease-in-out;
+    width: 0;
+}
+
+.btn-2:hover:after,
+.btn-2:hover:before {
+  	backface-visibility: hidden;
+  	border-color: rgb(150,150,150);
+  	transition: width 350ms ease-in-out;
+  	width: 100%;
+}
+
+.btn-2:hover:before {
+  	bottom: auto;
+  	top: 0;
+  	width: 100%;
+}
+
+#information > p {
+	font-size: 11px;
+	font-family: 'Old Standard TT', serif;
+	padding-left: 2%;	
+}
+
+#socialmedia {
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+#socialmedia > p > img {
+	height: 80px;
+}
+
+.fab {
+	margin-left: 10px;
+}
+
+.fa-facebook-square {
+	margin-left: 10px; 
+}
+
+#copy {
+	font-size: 12px;
+	position: relative;
+    bottom: 1vh;
+    left: 5vw;
+}
+
+.fifth{
+	height: 190vh;
+	overflow-y: hidden;
+}
+
+/*about page*/
+.about {
+	height: 280vh;
+}
+
+.desc2 {
+	height: 170vh;
+}
+
+/*customer page*/
+.card1 {
+	width: 95%;
+	height: 22%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0.9;
+}
+
+.card2 {
+	width: 95%;
+	height: 22%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0.9;
+}
+
+.card3 {
+	width: 95%;
+	height: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0.9;
+}
+
+.box3 > h1 {
+	margin-bottom: 8%;
+	font-size: 23px;
+}
+
+.customer {
+	height: 210vh;
+}
+
+.box3{
+	height: 200vh;
+	width: 100%;
+	justify-content: flex-start;
+}
+
+.media-left > img {
+	width: 100px;
+	height: 100px;
+}
+
+.media-body > h4 > u {
+	font-family: 'IBM Plex Serif', serif;
+	font-style: italic;
+	text-decoration-color: rgb(240,126,38);
+	font-size: 20px;
+}
+
+.media-body > p {
+	font-family: 'IBM Plex Serif', serif;
+	font-size: 10px;
+}
+.media-body > p > button {
+	font-size: 10px;
+}
+
+/*coffee page*/
+.coffee {
+	height: 40vh;
+}
+.coffee2 {
+	height: 1080vh;
+}
+
+#card {
+	width: 70%;
+	height: 100%;
+}
+#card-container {
+    width: 80%;
+    height: 95%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+#card > .back > h1 {
+  	font-size: 1.2em;
+  	padding-top: 15px;
+  	color: #DD899E;
+}
+
+#card > .back > p {
+  	font-size: 0.8em;
+}
+
+.coffee1 {
+	height: 120vh;
+	display: flex;
+	align-items: center;
+}
+
+.coffee > h1 {
+	font-size: 35px;
+}
+
+.face {
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
 }
 }
