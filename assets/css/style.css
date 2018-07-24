@@ -49,7 +49,7 @@ nav > img {
 	color: rgb(235,235,235);	
 	width: 85%;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 128px;
+	font-size: 130px;
 	text-align: center;
 	margin-top: 7%;
 }
@@ -57,7 +57,7 @@ nav > img {
 .box1 img {
 	height: 70vh;
 	position: absolute;
-	top: 110%;
+	top: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }
