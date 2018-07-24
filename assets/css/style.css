@@ -304,7 +304,7 @@ nav > img {
 }
 
 .fifth{
-	height: 49vh;
+	height: 100%;
 	width: 100vw;
 	background:white;
 	padding: 0;
@@ -313,7 +313,7 @@ nav > img {
 }
 
 .saba{
-	height: 40vh;
+	height: 100%;
 	width: 100%;
 	padding: 20px;
 	display: flex;
@@ -862,7 +862,7 @@ nav > img {
 }
 
 .fifth{
-	height: 40vh;
+	height: 100%;
 	width: 100vw;
 	background:white;
 	padding: 0;
@@ -871,7 +871,7 @@ nav > img {
 }
 
 .saba{
-	height: 40vh;
+	height: 100%;
 	width: 100%;
 	padding: 20px;
 	display: flex;
@@ -982,7 +982,7 @@ nav > img {
 }
 
 .fifth{
-	height: 32vh;
+	height: 100%;
 	overflow-y: hidden;
 }
 
@@ -1214,7 +1214,7 @@ nav > img {
 }
 
 .fifth{
-	height: 90vh;
+	height: 100%;
 }
 
 /*about page*/
@@ -1495,7 +1495,7 @@ nav > img {
 }
 
 .saba{
-	height: 70vh;
+	height: 100%;
 	width: 100%;
 	padding: 20px;
 	display: flex;
@@ -1614,7 +1614,7 @@ nav > img {
 }
 
 .fifth{
-	height: 190vh;
+	height: 100%;
 	overflow-y: hidden;
 }
 
